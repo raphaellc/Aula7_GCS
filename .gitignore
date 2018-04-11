@@ -1,1 +1,37 @@
-#Políticas Exclusão e Inclusão de Arquivos.
+﻿#Padrões Exclusão e Inclusão de Arquivos.
+
+#--------Links Úteis--------------#
+#Site para criar Padrões
+#https://www.gitignore.io/
+#
+
+#Gitignore Global
+#git config --global core.excludesfile ~/.gitignore_global
+
+#Excluindo arquivos no repositório local apenas, mas compartilhando o .gitignore
+#Basta editar o arquivo exclude em:
+#.git/info/exclude
+#Com isso podem ser excluidas configurações do editor.
+
+#Excluir PastaA
+#[Pp]astaA
+
+#Excluir a PastaA em qualquer lugar
+#**/[Pp]astaA
+
+#Exclui tudo na PastaB
+#[Pp]astaB/*
+
+#Não Excluir a PastaA dentro de Pasta B
+#!/[Pp]astaB/[Pp]astaA
+
+#Excluindo arquivos MS Visio 
+#*.vsdx
+#*.txt
+#!ArquivoBA.txt
+
+#Excluindo arquivos dentro de um diretório específico independente de sua posição
+#**/[Pp]astaA/[Aa]rquivoA.txt
+
+#Excluindo Arquivos com nomes específicos e caracteres pertencentes a conjuntos de caracteres.
+[Aa]rquivo[A-D].txt
