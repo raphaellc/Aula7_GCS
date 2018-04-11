@@ -1,0 +1,10 @@
+diff --git a/PastaB/PastaA/ArquivoBA.txt b/PastaB/PastaA/ArquivoBA.txt
+index b072bd7..efc888b 100644
+--- a/PastaB/PastaA/ArquivoBA.txt
++++ b/PastaB/PastaA/ArquivoBA.txt
+@@ -2,5 +2,3 @@
+ 15:47
+ Commit to Master - Raphaellc
+ Novo Commit to Master atualização da SHA 82ae8c3
+-Alterando na Master e comitando na master com Raphalc
+-
