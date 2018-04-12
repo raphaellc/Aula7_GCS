@@ -14,24 +14,26 @@
 #Com isso podem ser excluidas configurações do editor.
 
 #Excluir PastaA
-#[Pp]astaA
-
-#Excluir a PastaA em qualquer lugar
-#**/[Pp]astaA
-
-#Exclui tudo na PastaB
-#[Pp]astaB/*
+[Pp]astaA
 
 #Não Excluir a PastaA dentro de Pasta B
 #!/[Pp]astaB/[Pp]astaA
 
+#Excluir a PastaA independente de onde estiver.
+**/[Pp]astaA
+
+#Exclui tudo na PastaB
+[Pp]astaB
+
+
 #Excluindo arquivos MS Visio 
-#*.vsdx
-#*.txt
-#!ArquivoBA.txt
+*.vsdx
+#Excluindo todos os txt
+*.txt
+
 
 #Excluindo arquivos dentro de um diretório específico independente de sua posição
 #**/[Pp]astaA/[Aa]rquivoA.txt
 
 #Excluindo Arquivos com nomes específicos e caracteres pertencentes a conjuntos de caracteres.
-[Aa]rquivo[A-D].txt
+#[Aa]rquivo[A-D].txt
