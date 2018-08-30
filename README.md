@@ -3,3 +3,4 @@
 Ataulizando no rep local.
 .gitignore
 Clonado!
+Alterando no repositório remoto
