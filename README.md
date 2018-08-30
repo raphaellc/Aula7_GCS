@@ -2,3 +2,4 @@
 2018/2
 Ataulizando no rep local.
 .gitignore
+Clonado!
